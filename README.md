@@ -6,9 +6,9 @@ https://us-central1-nucampfunctions-381616.cloudfunctions.net/myExpressApp/camps
 **How to deploy via Google Cloud: <br /><br />
 1> enable APIs: Cloud Build API, Cloud Functions API <br />
 2> install gcloud CLI and Python 3 <br />
-3> As needed, add the path to gcloud cli to your PATH environment variable: <br />
+3> As needed, add the path to gcloud cli to your PATH environment variable: <br /><br />
     echo $PATH (ex. /c/Users/HaJeong/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin) <br />
-    export PATH=$PATH:/path/to/gcloud/cli  <br />
+    export PATH=$PATH:/path/to/gcloud/cli  <br /><br />
 4> npm init (entrypoint=> index.js) <br />
 5> npm install @google-cloud/functions-framework <br />
 6> gcloud auth login <br />
