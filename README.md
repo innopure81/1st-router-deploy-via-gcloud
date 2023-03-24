@@ -12,7 +12,7 @@ https://us-central1-nucampfunctions-381616.cloudfunctions.net/myExpressApp/camps
 4> npm init (entrypoint=> index.js) <br />
 5> npm install @google-cloud/functions-framework <br />
 6> gcloud auth login <br />
-7> gcloud config get-value project (or gcloud config set project "project ID") <br /> 
+7> gcloud config get-value project (or gcloud config set project "Put your project ID here") <br /> 
 8> npx @google-cloud/functions-framework --target=myExpressApp (<= to test app locally) <br />
 9> curl -X GET http://localhost:8080/campsites (<= to debug) <br />
 10> gcloud functions deploy myExpressApp --trigger-http --runtime nodejs12 --allow-unauthenticated <br />
