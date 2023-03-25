@@ -3,7 +3,7 @@
 Link to the router funtion deployed via gcloud:<br />
 https://us-central1-nucampfunctions-381616.cloudfunctions.net/myExpressApp/campsites<br /><br />
 
-**How to deploy via Google Cloud: <br /><br />
+**Procedure to deploy via Google Cloud: <br /><br />
 1> enable APIs: Cloud Build API, Cloud Functions API <br />
 2> install gcloud CLI and Python 3 <br />
 3> As needed, add the path to gcloud cli to your PATH environment variable: <br /><br />
